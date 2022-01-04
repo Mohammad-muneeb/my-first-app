@@ -17,9 +17,11 @@ class HomePage extends StatelessWidget {
           title: Text("Muneeb's App"),
         ),
 
-        body: Container(
-          child: Center(child: Text("Hi Adil Bitch!")),
-          ),
+        body: Center(
+          child: Container(
+            color: Colors.green,
+            width: 100,
+            height: 100,))
       ),
 
 
